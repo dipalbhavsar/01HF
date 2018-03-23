@@ -1,0 +1,25 @@
+{
+  "name": "hfapi",
+  "version": "1.0.0",
+  "description": "This is for home finance maintenace purpose only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Home",
+    "Finance"
+  ],
+  "author": "Dipal Bhavsar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "browserify": "^16.1.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  },
+  "build:browserify": "browserify ./api/server.js -o ./public/js/bundle.js"
+}

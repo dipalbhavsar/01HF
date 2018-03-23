@@ -1,0 +1,1 @@
+http://devsmash.com/blog/password-authentication-with-mongoose-and-bcrypt
