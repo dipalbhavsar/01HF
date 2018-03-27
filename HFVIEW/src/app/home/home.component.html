@@ -1,0 +1,12 @@
+<div class="container">  
+    <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center WelcomeLogin">
+                    <h3><strong>Welcome</strong></h3>
+                </div>
+            </div>
+        </div>
+        <app-login *ngIf="showLogInBox"></app-login>
+        <app-register *ngIf="showRegisterBox"></app-register>
+        <app-forget-password *ngIf="showForgetPassowrdBox"></app-forget-password>
+</div>

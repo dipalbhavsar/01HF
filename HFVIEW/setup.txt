@@ -1,3 +1,6 @@
 [2018-03-19] Angular cli setup
 [2018-03-19] Install font awesome - npm install --save font-awesome angular2-fontawesome
 [2018-03-19] go to src/app create login component
+[2018-03-27] Set up and design LogIn, Registration and Forget password components
+             Relocate all above three components under the Home folder
+
