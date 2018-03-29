@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeComponent } from '../home.component';
 
 @Component({
   selector: 'app-register',
@@ -8,14 +7,8 @@ import { HomeComponent } from '../home.component';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor(private homeComponent: HomeComponent) { }
+  constructor() { }
 
   ngOnInit() {
   }
-
-  showUserLogin() {
-    this.homeComponent.showLogInBox = true;
-    this.homeComponent.showRegisterBox = false;
-    this.homeComponent.showForgetPassowrdBox = false;
-   }
 }

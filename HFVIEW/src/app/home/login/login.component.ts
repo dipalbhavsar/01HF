@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from './login.service';
-import { HomeComponent } from '../home.component';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +10,7 @@ import { HomeComponent } from '../home.component';
 
 export class LoginComponent implements OnInit {
 
-  constructor( private loginService: LoginService, private homeComponent: HomeComponent) {}
+  constructor( private loginService: LoginService) {}
 
   userName = '';
   password = '';
@@ -46,17 +45,5 @@ export class LoginComponent implements OnInit {
     if (!this.isDisable) {
       this.clear();
     }
-  }
-
-  showUserRegistration() {
-    this.homeComponent.showLogInBox = false;
-    this.homeComponent.showRegisterBox = true;
-    this.homeComponent.showForgetPassowrdBox = false;
-  }
-
-  showForgetPassword() {
-    this.homeComponent.showLogInBox = false;
-    this.homeComponent.showRegisterBox = false;
-    this.homeComponent.showForgetPassowrdBox = true;
   }
 }

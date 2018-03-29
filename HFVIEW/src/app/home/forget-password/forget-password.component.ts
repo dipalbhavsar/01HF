@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeComponent } from '../home.component';
+
 @Component({
   selector: 'app-forget-password',
   templateUrl: './forget-password.component.html',
@@ -7,18 +7,8 @@ import { HomeComponent } from '../home.component';
 })
 export class ForgetPasswordComponent implements OnInit {
 
-  constructor(private homeComponent: HomeComponent) { }
+  constructor() { }
 
   ngOnInit() {
   }
-
-  showUserLogin() {
-    this.homeComponent.showLogInBox = true;
-    this.homeComponent.showRegisterBox = false;
-    this.homeComponent.showForgetPassowrdBox = false;
-   }
-
-   forgetPassword() {
-
-   }
 }

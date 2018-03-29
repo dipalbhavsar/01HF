@@ -16,16 +16,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  /*showRegister() {
-    this.showLogInBox = false;
-    this.showRegisterBox = true;
-    this.showForgetPassowrdBox = false;
-  }
-
-  showForgetPassword() {
-    this.showLogInBox = false;
-    this.showRegisterBox = false;
-    this.showForgetPassowrdBox = true;
-  }*/
 }
