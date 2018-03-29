@@ -6,6 +6,7 @@ import { ForgetPasswordComponent } from './home/forget-password/forget-password.
 
 const appRoutes: Routes = [
     // otherwise redirect to home
+    // This is for another tetsing.
     { path: '',          component: LoginComponent },
     { path: 'signup',    component: RegisterComponent  },
     { path: 'forgetpassword',  component: ForgetPasswordComponent },
